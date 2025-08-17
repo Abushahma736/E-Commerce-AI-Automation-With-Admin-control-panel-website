@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "essential-oils",
+    "name": "Essential Oils",
+    "type": "B2B"
+  },
+  {
+    "slug": "total-extracts",
+    "name": "Total Extracts",
+    "type": "B2B"
+  },
+  {
+    "slug": "oleoresin",
+    "name": "Oleoresins",
+    "type": "B2B"
+  },
+  {
+    "slug": "diafit",
+    "name": "DiaFit",
+    "type": "B2C"
+  },
+  {
+    "_id": "1755168159857",
+    "slug": "vegetables",
+    "name": "vegetables",
+    "description": "",
+    "image": "/images/lady_finger-1755168092796.jpg",
+    "isActive": true,
+    "productCount": 0,
+    "createdAt": "2025-08-14T10:42:39.857Z",
+    "updatedAt": "2025-08-14T10:42:39.857Z"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": "p1", "title": "Turmeric CO₂ Extract", "price": 499, "onSale": true, "category": "total-extracts", "image": "/images/turmeric.jpg" },
+  { "id": "p2", "title": "Clove Essential Oil", "price": 399, "onSale": false, "category": "essential-oils", "image": "/images/clove.jpg" },
+  { "id": "p3", "title": "Black Pepper Oleoresin", "price": 599, "onSale": false, "category": "oleoresin", "image": "/images/pepper.jpg" }
+]
+
+

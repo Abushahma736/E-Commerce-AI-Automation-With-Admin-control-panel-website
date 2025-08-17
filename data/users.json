@@ -1,0 +1,47 @@
+[
+  {
+    "id": "admin_1",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "password": "admin123",
+    "passwordHash": "$2a$12$7Jw/VVk8VzaFHh8a1C/MKOYHFf8KGvb2N9t3P.XLQ0xY3B7vJrw.m",
+    "role": "admin",
+    "createdAt": "2025-08-14T10:02:06.824Z"
+  },
+  {
+    "id": "admin_2",
+    "name": "ESSE Admin",
+    "email": "admin@esse.com",
+    "password": "admin123",
+    "passwordHash": "$2a$12$7Jw/VVk8VzaFHh8a1C/MKOYHFf8KGvb2N9t3P.XLQ0xY3B7vJrw.m",
+    "role": "admin",
+    "createdAt": "2025-08-15T06:00:00.000Z"
+  },
+  {
+    "id": "admin_3",
+    "name": "Super Admin",
+    "email": "superadmin@esse.com",
+    "password": "super123",
+    "passwordHash": "$2a$12$8Kx/VVk8VzaFHh8a1C/MKOYHFf8KGvb2N9t3P.XLQ0xY3B7vJrw.n",
+    "role": "admin",
+    "createdAt": "2025-08-15T06:00:00.000Z"
+  },
+  {
+    "id": "user_1",
+    "name": "Demo Customer",
+    "email": "demo@example.com",
+    "password": "demo123",
+    "passwordHash": "$2a$12$7Jw/VVk8VzaFHh8a1C/MKOYHFf8KGvb2N9t3P.XLQ0xY3B7vJrw.m",
+    "role": "customer",
+    "createdAt": "2025-08-14T10:02:06.824Z"
+  },
+  {
+    "id": "user_2",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "test123",
+    "passwordHash": "$2a$12$7Jw/VVk8VzaFHh8a1C/MKOYHFf8KGvb2N9t3P.XLQ0xY3B7vJrw.m",
+    "role": "customer",
+    "createdAt": "2025-08-14T10:02:06.824Z"
+  }
+]
