@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in { from { opacity: 0 } to { opacity: 1 } }
+@keyframes slide-up { from { transform: translateY(8px); opacity: 0 } to { transform: none; opacity: 1 } }
+@keyframes slide-down { from { transform: translateY(-8px); opacity: 0 } to { transform: none; opacity: 1 } }
+@keyframes scale-in { from { transform: scale(0.95); opacity: 0 } to { transform: scale(1); opacity: 1 } }
+@keyframes shimmer { 0% { background-position: -600px 0; } 100% { background-position: 600px 0; } }
+@keyframes pulse-glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); } 50% { box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); } }
+
+.animate-fade-in { animation: fade-in 200ms ease-out }
+.animate-slide-up { animation: slide-up 250ms ease-out }
+.animate-slide-down { animation: slide-down 250ms ease-out }
+.animate-scale-in { animation: scale-in 150ms ease-out }
+.animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite }
+
+:root {
+  --radius: 0.5rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-brand-offwhite text-slate-900;
+}
+
+.container-base {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.img-skeleton {
+  background: #f6f7f8;
+  background-image: linear-gradient(90deg, #f6f7f8 0px, #edeef1 40px, #f6f7f8 80px);
+  background-size: 600px;
+  animation: shimmer 1.2s linear infinite forwards;
+}
+
+/* Custom Range Slider */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #22c55e;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.3);
+  transition: all 0.2s ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: #16a34a;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.5);
+  transform: scale(1.1);
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #22c55e;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.3);
+  transition: all 0.2s ease;
+}
+
+.slider::-moz-range-thumb:hover {
+  background: #16a34a;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.5);
+  transform: scale(1.1);
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+
